@@ -6,17 +6,19 @@
 
 using namespace std;
 
+struct struktura1//before main()
+{
+     char temp22[2][4];
+};
+
 int main()
 {
 
    int ile_walut_wczytac=1500;
   int  ile_dni_pobrac_z_bazy_danych=365;
-struct struktura1
-{
-     char temp22[2][4];
-};
 
-// author marcin matysek rewertyn
+
+
  struktura1 **a2= new struktura1*[ile_dni_pobrac_z_bazy_danych];
  for(int i=0;i<ile_dni_pobrac_z_bazy_danych;i++)
  {
